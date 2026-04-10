@@ -1,4 +1,4 @@
-# wallet
+# p2payments/wallet
 
 Mobile self-custodial wallet for P2Payments, based on an [Aqua Wallet](https://github.com/AquaWallet/aqua-wallet) fork.
 
