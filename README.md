@@ -1,10 +1,10 @@
 [Español](README.es.md) | [Português](README.pt.md) | [Русский](README.ru.md) | [Français](README.fr.md) | [Italiano](README.it.md)
 
-# p2payments/wallet
+# p2pagos/wallet
 
-Mobile self-custodial wallet for P2Payments, based on an [Aqua Wallet](https://github.com/AquaWallet/aqua-wallet) fork.
+Mobile self-custodial wallet for P2Pagos, based on an [Aqua Wallet](https://github.com/AquaWallet/aqua-wallet) fork.
 
-This repository exists because Aqua already provides a strong base for the settlement layer we need, while still allowing us to extend the product toward P2Payments-specific payment flows, settings management, and marketplace integrations.
+This repository exists because Aqua already provides a strong base for the settlement layer we need, while still allowing us to extend the product toward P2Pagos-specific payment flows, settings management, and marketplace integrations.
 
 ## Why Aqua Wallet
 
@@ -21,7 +21,7 @@ We selected Aqua Wallet as the base for this fork for the following reasons:
 
 ## Planned changes
 
-The current fork is intended to evolve into the P2Payments mobile settlement and configuration wallet.
+The current fork is intended to evolve into the P2Pagos mobile settlement and configuration wallet.
 
 Planned changes include:
 
@@ -32,7 +32,7 @@ Planned changes include:
 - Continuously improving core functionality while regularly pulling upstream changes from Aqua.
 - Removing the distinction between **Saving Account** (BTC) and **Spending Accounts** (other assets), in order to better fit our payment-oriented product model.
 - Adding Russian and removing unnecessary languages, aligning the wallet with our default language set: EN, ES, PT, FR, IT, RU.
-- Rebranding the application as part of the P2Payments product family.
+- Rebranding the application as part of the P2Pagos product family.
 
 ## USDT on Polygon
 
@@ -61,11 +61,11 @@ The security model is intentionally simple:
 - A minimal capability bridge is exposed from Flutter to the WebView layer.
 - That bridge is limited to the data and actions required for the payment UI, such as receiving addresses, basic wallet context, and signing requests.
 
-This allows us to keep sensitive key material inside the native wallet layer while still building a flexible product interface in Nuxt for P2Payments-specific flows and settings.
+This allows us to keep sensitive key material inside the native wallet layer while still building a flexible product interface in Nuxt for P2Pagos-specific flows and settings.
 
 ## Scope
 
-This repository should be read as the mobile wallet layer of the broader P2Payments architecture.
+This repository should be read as the mobile wallet layer of the broader P2Pagos architecture.
 
 It is not just a generic wallet fork. Its purpose is to provide:
 
